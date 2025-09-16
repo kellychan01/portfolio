@@ -346,4 +346,4 @@ export function Room({ onTogglePopup, disableInteraction, ...props }) {
     );
 }
 
-useGLTF.preload('../../src/models/new.glb')
+useGLTF.preload('/models/new.glb')
