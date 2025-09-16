@@ -23,9 +23,9 @@ const Black = () => (
 
         {/* Stills Gallery */}
         <section className="project-gallery">
-            <img src="../../public/pic/project7/project7-2.jpg" alt="Close-up of the model holding a white mask beside her face, glancing sideways with a subtle smile. Behind her, red candles in an ornate candelabrum glow faintly through cobwebs, with painted cranes and lotus flowers on a folding screen." />
-            <img src="../../public/pic/project7/project7-3.jpg" alt="The model sits near a table adorned with candles and a woven basket, holding the white mask near her cheek while smiling softly. The dim, smoky atmosphere is enriched by the detailed painted backdrop of lotus flowers and cranes." />
-            <img src="../../public/pic/project7/project7-4.jpg" alt="The model sits at the corner of a low table, holding the mask upright and gazing at it with a calm, contemplative expression. She is surrounded by set elements including pampas grass, hanging red lanterns, and a dark folding screen decorated with cranes and lotus motifs." />
+            <img src="/pic/project7/project7-2.jpg" alt="Close-up of the model holding a white mask beside her face, glancing sideways with a subtle smile. Behind her, red candles in an ornate candelabrum glow faintly through cobwebs, with painted cranes and lotus flowers on a folding screen." />
+            <img src="/pic/project7/project7-3.jpg" alt="The model sits near a table adorned with candles and a woven basket, holding the white mask near her cheek while smiling softly. The dim, smoky atmosphere is enriched by the detailed painted backdrop of lotus flowers and cranes." />
+            <img src="/pic/project7/project7-4.jpg" alt="The model sits at the corner of a low table, holding the mask upright and gazing at it with a calm, contemplative expression. She is surrounded by set elements including pampas grass, hanging red lanterns, and a dark folding screen decorated with cranes and lotus motifs." />
         </section>
 
         {/* FOOTER */}
