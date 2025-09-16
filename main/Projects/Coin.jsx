@@ -6,7 +6,7 @@ const Coin = () => (
 
         {/*Cover IMG*/}
         <div className="project-img">
-            <img src="../../public/pic/project5/project5-1.png" alt="A black oversized T-shirt featuring a small white graphic on the upper left chest with three cartoon Hong Kong coins standing side by side under the text “UTEHKSA EST. 1997” and three Chinese characters in circles below."/>
+            <img src="/pic/project5/project5-1.png" alt="A black oversized T-shirt featuring a small white graphic on the upper left chest with three cartoon Hong Kong coins standing side by side under the text “UTEHKSA EST. 1997” and three Chinese characters in circles below."/>
         </div>
 
         {/* Metadata */}
