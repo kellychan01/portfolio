@@ -6,7 +6,7 @@ const About = () => (
 
         {/*Cover IMG*/}
         <div className="about-img">
-            <img src="../../src/pic/IMG_4599.jpg" alt="Still frame 1"/>
+            <img src="../../public/pic/IMG_4599.jpg" alt="Still frame 1"/>
         </div>
 
         {/* Metadata */}

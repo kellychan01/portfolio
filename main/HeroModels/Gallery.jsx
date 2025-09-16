@@ -19,7 +19,7 @@ const Gallery = () => {
                     {/* Project 1 */}
                 <div style={{ position: "relative" }}>
                     <Link to="/project1">
-                        <img src="../../src/pic/project1/project1-1.jpg" alt="Days of Being Wild - Remake"
+                        <img src="../../public/pic/project1/project1-1.jpg" alt="Days of Being Wild - Remake"
                              style={{width: "100%", aspectRatio: "5 / 3", objectFit: "cover", cursor: "pointer"}}/>
                     </Link>
                     <div className="item-overlay">
@@ -29,8 +29,8 @@ const Gallery = () => {
                 {/* Project 2 */}
                 <div style={{ position: "relative" }}>
                     <Link to="/project2">
-                                <img src="../../src/pic/project9/project9-1.jpg" alt="Shadow of Freedom"
-                                    style={{ width: "100%", aspectRatio: "5 / 3", objectFit: "cover", cursor: "pointer" }}/>
+                                <img src="../../public/pic/project9/project9-1.jpg" alt="Shadow of Freedom"
+                                     style={{ width: "100%", aspectRatio: "5 / 3", objectFit: "cover", cursor: "pointer" }}/>
                     </Link>
                         <div className="item-overlay">
                             <h3>Shadows of Freedom</h3> <p>Documentary</p>
@@ -39,8 +39,8 @@ const Gallery = () => {
                     {/* Project 3 */}
                     <div style={{ position: "relative" }}>
                         <Link to="/project3">
-                            <img src="../../src/pic/project10/project10-1.JPG" alt="Find Me"
-                                style={{ width: "100%", aspectRatio: "5 / 3", objectFit: "cover", cursor: "pointer" }}/>
+                            <img src="../../public/pic/project10/project10-1.JPG" alt="Find Me"
+                                 style={{ width: "100%", aspectRatio: "5 / 3", objectFit: "cover", cursor: "pointer" }}/>
                         </Link>
                         <div className="item-overlay">
                             <h3>Beloved: Find me</h3> <p>Micro Film</p>
@@ -49,8 +49,8 @@ const Gallery = () => {
                     {/* Project 4 */}
                      <div style={{ position: "relative" }}>
                         <Link to="/project4">
-                            <img src="../../src/pic/project11/project11-2.png" alt="A Semester In Bangkok"
-                                style={{ width: "100%", aspectRatio: "5 / 3", objectFit: "cover", cursor: "pointer" }}/>
+                            <img src="../../public/pic/project11/project11-2.png" alt="A Semester In Bangkok"
+                                 style={{ width: "100%", aspectRatio: "5 / 3", objectFit: "cover", cursor: "pointer" }}/>
                         </Link>
                          <div className="item-overlay">
                              <h3>A Semester In Bangkok</h3> <p>Vlog</p>
@@ -62,7 +62,7 @@ const Gallery = () => {
                     {/* Project 5 */}
                      <div style={{ position: "relative" }}>
                         <Link to="/project5">
-                            <img src="../../src/pic/project2/project2-2.png" alt="Pocket Billiards Portrait Photography"
+                            <img src="../../public/pic/project2/project2-2.png" alt="Pocket Billiards Portrait Photography"
                                  style={{ width: "100%", aspectRatio: "5 / 3", objectFit: "cover", cursor: "pointer" }}/>
                         </Link>
                          <div className="item-overlay">
@@ -72,7 +72,7 @@ const Gallery = () => {
                     {/* Project 6 */}
                      <div style={{ position: "relative" }}>
                         <Link to="/project6">
-                            <img src="../../src/pic/project8/project8-1.png" alt="Redwood Grand Opening"
+                            <img src="../../public/pic/project8/project8-1.png" alt="Redwood Grand Opening"
                                  style={{ width: "100%", aspectRatio: "5 / 3", objectFit: "cover", cursor: "pointer" }}/>
                         </Link>
                          <div className="item-overlay">
@@ -82,7 +82,7 @@ const Gallery = () => {
                     {/* Project 7 */}
                      <div style={{ position: "relative" }}>
                         <Link to="/project7">
-                            <img src="../../src/pic/project4/project4-1.png" alt="WeWorkingWomen Career Forum"
+                            <img src="../../public/pic/project4/project4-1.png" alt="WeWorkingWomen Career Forum"
                                  style={{ width: "100%", aspectRatio: "5 / 3", objectFit: "cover", cursor: "pointer" }}/>
                         </Link>
                          <div className="item-overlay">
@@ -94,7 +94,7 @@ const Gallery = () => {
                     {/* Project 8 */}
                      <div style={{ position: "relative" }}>
                         <Link to="/project8">
-                            <img src="../../src/pic/project5/project5-1.png" alt="Coinnected"
+                            <img src="../../public/pic/project5/project5-1.png" alt="Coinnected"
                                  style={{ width: "100%", aspectRatio: "5 / 3", objectFit: "cover", cursor: "pointer" }}/>
                         </Link>
                          <div className="item-overlay">
@@ -104,7 +104,7 @@ const Gallery = () => {
                     {/* Project 9 */}
                      <div style={{ position: "relative" }}>
                         <Link to="/project9">
-                            <img src="../../src/pic/project3/project3-1.png" alt="Between The Letters"
+                            <img src="../../public/pic/project3/project3-1.png" alt="Between The Letters"
                                  style={{ width: "100%", aspectRatio: "5 / 3", objectFit: "cover", cursor: "pointer" }}/>
                         </Link>
                          <div className="item-overlay">
@@ -116,7 +116,7 @@ const Gallery = () => {
                     {/* Project 10 */}
                       <div style={{ position: "relative" }}>
                         <Link to="/project10">
-                            <img src="../../src/pic/project12/project12-9.png" alt="Interactive Workspace: A 3d Portfolio Experience"
+                            <img src="../../public/pic/project12/project12-9.png" alt="Interactive Workspace: A 3d Portfolio Experience"
                                  style={{ width: "100%", aspectRatio: "5 / 3", objectFit: "cover", cursor: "pointer" }}/>
                         </Link>
                           <div className="item-overlay">
@@ -126,7 +126,7 @@ const Gallery = () => {
                     {/* Project 11 */}
                       <div style={{ position: "relative" }}>
                         <Link to="/project11">
-                            <img src="../../src/pic/project13/project13-4.png" alt="Floral Forms"
+                            <img src="../../public/pic/project13/project13-4.png" alt="Floral Forms"
                                  style={{ width: "100%", aspectRatio: "5 / 3", objectFit: "cover", cursor: "pointer" }}/>
                         </Link>
                           <div className="item-overlay">
@@ -136,7 +136,7 @@ const Gallery = () => {
                     {/* Project 12 */}
                        <div style={{ position: "relative" }}>
                         <Link to="/project12">
-                            <img src="../../src/pic/project14/project14-5.png" alt="Pixelflip"
+                            <img src="../../public/pic/project14/project14-5.png" alt="Pixelflip"
                                  style={{ width: "100%", aspectRatio: "5 / 3", objectFit: "cover", cursor: "pointer" }}/>
                         </Link>
                            <div className="item-overlay">
@@ -148,7 +148,7 @@ const Gallery = () => {
                     {/* Project 13 */}
                       <div style={{ position: "relative" }}>
                         <Link to="/project13">
-                            <img src="../../src/pic/project6/project6-1.jpg" alt="Aether & Gold"
+                            <img src="../../public/pic/project6/project6-1.jpg" alt="Aether & Gold"
                                  style={{ width: "100%", aspectRatio: "5 / 3", objectFit: "cover", cursor: "pointer" }}/>
                         </Link>
                           <div className="item-overlay">
@@ -158,7 +158,7 @@ const Gallery = () => {
                     {/* Project 14 */}
                         <div style={{ position: "relative" }}>
                         <Link to="/project14">
-                            <img src="../../src/pic/project7/project7-1.jpg" alt="Beyond The Myth"
+                            <img src="../../public/pic/project7/project7-1.jpg" alt="Beyond The Myth"
                                  style={{ width: "100%", aspectRatio: "5 / 3", objectFit: "cover", cursor: "pointer" }}/>
                         </Link>
                             <div className="item-overlay">

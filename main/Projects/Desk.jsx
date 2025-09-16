@@ -6,7 +6,7 @@ const Desk = () => (
 
         {/*Cover IMG*/}
         <div className="project-img">
-            <img src="../../src/pic/project12/project12-9.png" alt="Final render of the 3D workstation: five monitors, control panels with knobs and sliders, dual keyboards and mice, and a folder on the desk, set against a dark background."/>
+            <img src="../../public/pic/project12/project12-9.png" alt="Final render of the 3D workstation: five monitors, control panels with knobs and sliders, dual keyboards and mice, and a folder on the desk, set against a dark background."/>
         </div>
 
         {/* Metadata */}
@@ -25,19 +25,19 @@ const Desk = () => (
 
         {/* Stills Gallery */}
         <section className="project-gallery">
-            <img src="../../src/pic/project12/project12-5.png" alt="Front render of the desk." />
-            <img src="../../src/pic/project12/project12-6.png" alt="Close-up render of the center monitors." />
-            <img src="../../src/pic/project12/project12-7.png" alt="Angled Blender viewport view." />
+            <img src="../../public/pic/project12/project12-5.png" alt="Front render of the desk." />
+            <img src="../../public/pic/project12/project12-6.png" alt="Close-up render of the center monitors." />
+            <img src="../../public/pic/project12/project12-7.png" alt="Angled Blender viewport view." />
         </section>
 
         {/* Creative Workflow */}
         <section className="creative-workflow">
             <div className="subsection-label">CREATIVE WORKFLOW</div>
             <div className="workflow-grid">
-                <img src="../../src/pic/project12/project12-1.png" alt="Wireframe view." />
-                <img src="../../src/pic/project12/project12-2.png" alt="Close-up view." />
-                <img src="../../src/pic/project12/project12-3.png" alt="Front orthographic render of the full desk." />
-                <img src="../../src/pic/project12/project12-4.png" alt="Angled view of the full desk." />
+                <img src="../../public/pic/project12/project12-1.png" alt="Wireframe view." />
+                <img src="../../public/pic/project12/project12-2.png" alt="Close-up view." />
+                <img src="../../public/pic/project12/project12-3.png" alt="Front orthographic render of the full desk." />
+                <img src="../../public/pic/project12/project12-4.png" alt="Angled view of the full desk." />
             </div>
         </section>
 
