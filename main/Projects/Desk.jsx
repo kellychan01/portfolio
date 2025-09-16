@@ -6,7 +6,7 @@ const Desk = () => (
 
         {/*Cover IMG*/}
         <div className="project-img">
-            <img src="../../public/pic/project12/project12-9.png" alt="Final render of the 3D workstation: five monitors, control panels with knobs and sliders, dual keyboards and mice, and a folder on the desk, set against a dark background."/>
+            <img src="/pic/project12/project12-9.png" alt="Final render of the 3D workstation: five monitors, control panels with knobs and sliders, dual keyboards and mice, and a folder on the desk, set against a dark background."/>
         </div>
 
         {/* Metadata */}
