@@ -3,9 +3,9 @@ import { useFrame } from '@react-three/fiber'
 import { useGLTF, Text } from '@react-three/drei'
 import { Vector3 } from 'three'
 
-const FuturaMedium = '../../src/fonts/Futura Medium.ttf'
-const FuturaLight = '../../src/fonts/Futura Light.ttf'
-const FuturaLightItalic = '../../src/fonts/Futura Light Italic.ttf'
+const FuturaMedium = '/fonts/Futura Medium.ttf'
+const FuturaLight = '/fonts/Futura Light.ttf'
+const FuturaLightItalic = '/fonts/Futura Light Italic.ttf'
 
 
 export function Room({ onTogglePopup, disableInteraction, ...props }) {
