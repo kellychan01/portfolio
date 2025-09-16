@@ -30,10 +30,10 @@ const Letters = () => (
         <section className="creative-workflow">
             <div className="subsection-label">CREATIVE WORKFLOW</div>
             <div className="workflow-grid">
-                <img src="../../public/pic/project14/project14-1.png" alt="Wireframe view in Blender of a 3D-modeled clamshell handheld gaming console with its screen open and controls visible on the lower half." />
-                <img src="../../public/pic/project14/project14-2.png" alt="Close-up wireframe view of the handheld console’s control panel, showing the directional pad, circular buttons, and hinge details in Blender." />
-                <img src="../../public/pic/project14/project14-3.png" alt="Clay render of the open handheld gaming console, highlighting its directional pad, buttons, hinge mechanism, and perforated speaker grill." />
-                <img src="../../public/pic/project14/project14-4.png" alt="Textured render of the handheld gaming console with a metallic finish, colorful control buttons, and a custom display showing stylized digital artwork." />
+                <img src="/pic/project14/project14-1.png" alt="Wireframe view in Blender of a 3D-modeled clamshell handheld gaming console with its screen open and controls visible on the lower half." />
+                <img src="/pic/project14/project14-2.png" alt="Close-up wireframe view of the handheld console’s control panel, showing the directional pad, circular buttons, and hinge details in Blender." />
+                <img src="/pic/project14/project14-3.png" alt="Clay render of the open handheld gaming console, highlighting its directional pad, buttons, hinge mechanism, and perforated speaker grill." />
+                <img src="/pic/project14/project14-4.png" alt="Textured render of the handheld gaming console with a metallic finish, colorful control buttons, and a custom display showing stylized digital artwork." />
             </div>
         </section>
 
