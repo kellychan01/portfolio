@@ -26,11 +26,11 @@ const Thai = () => (
 
         {/* Stills Gallery */}
         <section className="project-gallery">
-            <img src="../../public/pic/project11/project11-1.png" alt="View from an airplane window showing the wing against a cloudy sky, overlaid with hand-drawn text reading “Kelly Chan’s Outbound Exchange” and “Thailand”." />
-            <img src="../../public/pic/project11/project11-2.png" alt="Close-up of an ornate section of Wat Arun temple in Bangkok, decorated with colorful floral tiles and statues of mythological figures against a bright blue sky." />
-            <img src="../../public/pic/project11/project11-3.jpg" alt="Street scene in Bangkok with motorbikes passing by small shops, including a storefront with a green Chang beer sign and a shop selling food with Thai signage." />
-            <img src="../../public/pic/project11/project11-4.jpg" alt="Split-frame photo taken from inside a bus: the left side shows a small mechanic shop with a red motorbike and Volkswagen sign, and the right side shows a blurred street view through a bus window with a large blue and green logo decal." />
-            <img src="../../public/pic/project11/project11-5.jpg" alt="Interior of a shuttle bus from Chulalongkorn University with yellow poles and blue seats, showing a few passengers and an LED display reading “Next stop” in English and Thai." />
+            <img src="/pic/project11/project11-1.png" alt="View from an airplane window showing the wing against a cloudy sky, overlaid with hand-drawn text reading “Kelly Chan’s Outbound Exchange” and “Thailand”." />
+            <img src="/pic/project11/project11-2.png" alt="Close-up of an ornate section of Wat Arun temple in Bangkok, decorated with colorful floral tiles and statues of mythological figures against a bright blue sky." />
+            <img src="/pic/project11/project11-3.jpg" alt="Street scene in Bangkok with motorbikes passing by small shops, including a storefront with a green Chang beer sign and a shop selling food with Thai signage." />
+            <img src="/pic/project11/project11-4.jpg" alt="Split-frame photo taken from inside a bus: the left side shows a small mechanic shop with a red motorbike and Volkswagen sign, and the right side shows a blurred street view through a bus window with a large blue and green logo decal." />
+            <img src="/pic/project11/project11-5.jpg" alt="Interior of a shuttle bus from Chulalongkorn University with yellow poles and blue seats, showing a few passengers and an LED display reading “Next stop” in English and Thai." />
         </section>
 
         {/* FOOTER */}
