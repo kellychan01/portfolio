@@ -6,7 +6,7 @@ const Black = () => (
 
         {/*Cover IMG*/}
         <div className="project-img">
-            <img src="../../public/pic/project7/project7-1.jpg" alt="A model dressed in a black floral-patterned top and flowing red robe sits on a woven mat in a dimly lit set decorated with cobwebs, red candles, bamboo props, and a weathered parasol. She holds a plain white mask in one hand, gazing directly toward the camera as mist swirls in the background."/>
+            <img src="/pic/project7/project7-1.jpg" alt="A model dressed in a black floral-patterned top and flowing red robe sits on a woven mat in a dimly lit set decorated with cobwebs, red candles, bamboo props, and a weathered parasol. She holds a plain white mask in one hand, gazing directly toward the camera as mist swirls in the background."/>
         </div>
 
         {/* Metadata */}
