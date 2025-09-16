@@ -9,7 +9,7 @@ const FuturaLightItalic = '../../src/fonts/Futura Light Italic.ttf'
 
 
 export function Room({ onTogglePopup, disableInteraction, ...props }) {
-    const { nodes, materials } = useGLTF('../../src/models/new.glb')
+    const { nodes, materials } = useGLTF('/models/new.glb')
     const [hovered, setHovered] = useState(null)
     const [scale, setScale] = useState(0.8); // Default scale of the text
     const [initialLoad, setInitialLoad] = useState(true); // Flag to track initial load
