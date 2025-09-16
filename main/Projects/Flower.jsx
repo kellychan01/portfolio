@@ -6,7 +6,7 @@ const Flower = () => (
 
         {/*Cover IMG*/}
         <div className="project-img">
-            <img src="../../public/pic/project13/project13-4.png" alt="Final render of a spherical floral arrangement featuring blue hydrangea-like flowers, green leaves, and dried beige grasses, surrounded by glossy pearl-like spheres."/>
+            <img src="/pic/project13/project13-4.png" alt="Final render of a spherical floral arrangement featuring blue hydrangea-like flowers, green leaves, and dried beige grasses, surrounded by glossy pearl-like spheres."/>
         </div>
 
         {/* Metadata */}
