@@ -25,19 +25,19 @@ const Desk = () => (
 
         {/* Stills Gallery */}
         <section className="project-gallery">
-            <img src="../../public/pic/project12/project12-5.png" alt="Front render of the desk." />
-            <img src="../../public/pic/project12/project12-6.png" alt="Close-up render of the center monitors." />
-            <img src="../../public/pic/project12/project12-7.png" alt="Angled Blender viewport view." />
+            <img src="/pic/project12/project12-5.png" alt="Front render of the desk." />
+            <img src="/pic/project12/project12-6.png" alt="Close-up render of the center monitors." />
+            <img src="/pic/project12/project12-7.png" alt="Angled Blender viewport view." />
         </section>
 
         {/* Creative Workflow */}
         <section className="creative-workflow">
             <div className="subsection-label">CREATIVE WORKFLOW</div>
             <div className="workflow-grid">
-                <img src="../../public/pic/project12/project12-1.png" alt="Wireframe view." />
-                <img src="../../public/pic/project12/project12-2.png" alt="Close-up view." />
-                <img src="../../public/pic/project12/project12-3.png" alt="Front orthographic render of the full desk." />
-                <img src="../../public/pic/project12/project12-4.png" alt="Angled view of the full desk." />
+                <img src="/pic/project12/project12-1.png" alt="Wireframe view." />
+                <img src="/pic/project12/project12-2.png" alt="Close-up view." />
+                <img src="/pic/project12/project12-3.png" alt="Front orthographic render of the full desk." />
+                <img src="/pic/project12/project12-4.png" alt="Angled view of the full desk." />
             </div>
         </section>
 
