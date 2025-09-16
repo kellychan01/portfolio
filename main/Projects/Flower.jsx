@@ -26,10 +26,10 @@ const Flower = () => (
         <section className="creative-workflow">
             <div className="subsection-label">CREATIVE WORKFLOW</div>
             <div className="workflow-grid">
-                <img src="../../public/pic/project13/project13-1.png" alt="Wireframe view in Blender of a spherical arrangement of assorted 3D flowers and foliage." />
-                <img src="../../public/pic/project13/project13-2.png" alt="Blender shading workspace with material node setup." />
-                <img src="../../public/pic/project13/project13-3.png" alt="Progress of the spherical floral arrangement." />
-                <img src="../../public/pic/project13/project13-5.png" alt="Rendered 3D floral sphere with blue flowers, dried grasses, and reflective pearl-like spheres." />
+                <img src="/pic/project13/project13-1.png" alt="Wireframe view in Blender of a spherical arrangement of assorted 3D flowers and foliage." />
+                <img src="/pic/project13/project13-2.png" alt="Blender shading workspace with material node setup." />
+                <img src="/pic/project13/project13-3.png" alt="Progress of the spherical floral arrangement." />
+                <img src="/pic/project13/project13-5.png" alt="Rendered 3D floral sphere with blue flowers, dried grasses, and reflective pearl-like spheres." />
             </div>
         </section>
 
