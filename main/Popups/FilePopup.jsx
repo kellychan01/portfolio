@@ -4,9 +4,9 @@ import { Html } from '@react-three/drei';
 import Project1 from '../Projects/About';
 import Project2 from '../Projects/Contact';
 
-const FuturaMedium = '../../src/fonts/Futura Medium.ttf';
-const FuturaLight = '../../src/fonts/Futura Light.ttf';
-const FuturaLightItalic = '../../src/fonts/Futura Light Italic.ttf';
+const FuturaMedium = '/fonts/Futura Medium.ttf';
+const FuturaLight = '/fonts/Futura Light.ttf';
+const FuturaLightItalic = '/fonts/Futura Light Italic.ttf';
 
 const FilePopup = ({ onClose }) => {
     const [hovered, setHovered] = useState(false);
