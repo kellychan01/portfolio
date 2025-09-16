@@ -28,10 +28,10 @@ const Billiards = () => (
 
         {/* Stills Gallery */}
         <section className="project-gallery">
-            <img src="../../public/pic/project2/project2-1.png" alt="Photographer taking a picture of a woman playing pool, with professional lighting set up around the billiard table, other participants and photographers visible in the background." />
-            <img src="../../public/pic/project2/project2-2.png" alt="Close-up action shot of a cue ball moving toward a neatly racked set of colorful billiard balls on a blue pool table." />
-            <img src="../../public/pic/project2/project2-3.png" alt="Close-up portrait of a woman with long hair holding a cue stick, wearing a black lace top, with the pool hall and tables softly blurred in the background." />
-            <img src="../../public/pic/project2/project2-4.png" alt="Overhead close-up of racked billiard balls on a blue table, with the black 8-ball in the center surrounded by colorful solids and stripes." />
+            <img src="/pic/project2/project2-1.png" alt="Photographer taking a picture of a woman playing pool, with professional lighting set up around the billiard table, other participants and photographers visible in the background." />
+            <img src="/pic/project2/project2-2.png" alt="Close-up action shot of a cue ball moving toward a neatly racked set of colorful billiard balls on a blue pool table." />
+            <img src="/pic/project2/project2-3.png" alt="Close-up portrait of a woman with long hair holding a cue stick, wearing a black lace top, with the pool hall and tables softly blurred in the background." />
+            <img src="/pic/project2/project2-4.png" alt="Overhead close-up of racked billiard balls on a blue table, with the black 8-ball in the center surrounded by colorful solids and stripes." />
         </section>
 
         {/* FOOTER */}
