@@ -1,0 +1,405 @@
+@import "tailwindcss";
+
+
+@font-face {
+    font-family: 'Digi';
+    src: url('../src/fonts/digi.TTF') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FuturaLight';
+    src: url('../src/fonts/Futura Light.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'FuturaLightItalic';
+    src: url('../src/fonts/Futura Light Italic.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'FuturaMedium';
+    src: url('../src/fonts/Futura Medium.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'FuturaBold';
+    src: url('../src/fonts/Futura Bold.ttf') format('truetype');
+    font-weight: 700;
+}
+
+html, body {
+    width: 100vw;
+    height: 100vh;
+    /*background-color: #131313;*/
+    color: white;
+    margin: 0;
+}
+
+@theme {
+    --color-white-50: #d9ecff;
+    --color-blue-100:#2d2d38;
+}
+
+@layer utilities {
+    .flex-center {
+        @apply flex justify-center items-center;
+    }
+}
+
+@layer components {
+
+    .hero-3d-layout {
+        @apply absolute w-full h-full;
+    }
+}
+
+.digital-clock-inline {
+    display: inline-flex;
+    align-items: center;
+    flex-wrap: nowrap;       /* never wrap the flex items */
+    white-space: nowrap;     /* prevent any text from breaking lines */
+    color: #c50000;
+    text-transform: uppercase;
+    font-family: 'Digi', monospace;
+    font-size: 11rem;
+    text-shadow: 0 0 15px #c50000;
+}
+
+.digital-clock-inline .time,
+.digital-clock-inline .day,
+.digital-clock-inline .date {
+    display: inline-block;
+    text-align: center;
+    /* Prevent shrinking or growing */
+    flex: 0 0 auto;
+}
+
+/* HH:MM:SS is always 8 chars */
+.digital-clock-inline .time {
+    width: 8ch;
+}
+
+.digital-clock-inline .day {
+    width: 3ch;
+}
+
+.digital-clock-inline .date {
+    width: 6ch;
+}
+
+.digital-clock-inline .sep {
+    margin: 0 0.5ch;
+    opacity: 0.3;
+}
+
+
+.loading-screen {
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0,0,0,0.8);
+    color: #fff;
+    z-index: 10;
+}
+
+.spinner {
+    width: 50px;
+    height: 50px;
+    border: 5px solid rgba(255,255,255,0.2);
+    border-top-color: #fff;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+    margin-bottom: 1rem;
+}
+
+.loading-text {
+    font-family: 'Digi', monospace;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+
+@keyframes spin {
+    to { transform: rotate(360deg); }
+}
+
+.button {
+                        /*close button for project*/
+    font-size: 1rem;
+    text-transform: uppercase;
+    padding: 0.6vh 0.65vw;
+    border-radius: 10px;
+    cursor: pointer;
+    position: absolute;
+    right: 2vw; /* Adjust distance from right */
+    top: 9vh; /* Adjust distance from top */
+}
+
+.close-button {
+    font-size: 1rem;
+    text-transform: uppercase;
+    padding: 0.6vh 0.65vw;
+    border-radius: 10px;
+    cursor: pointer;
+    position: absolute;
+    right: 2vw;
+    top: 9vh;
+    z-index: 10000;          /* <-- keeps it above bottom content/canvas */
+    color: #cfd0d5;
+    border: 1px solid #cfd0d5;
+}
+
+/* Button color when a project is selected */
+.project-selected {
+    color: #cfd0d5;
+    border: 1px solid #cfd0d5;
+}
+
+/* Button color when no project is selected */
+.default {
+    color: #363639;
+    border: 1px solid #363639;
+}
+
+.button:active {
+    box-shadow: none;
+    transform: translate(3px, 3px);
+}
+
+.folder {
+    width: 60vw;
+    height: 70vh;
+    display: flex; /* Use flexbox to arrange top and bottom vertically */
+    flex-direction: column; /* Stack the top and bottom sections vertically */
+    position: relative; /* Ensure the folder is relative for absolute positioning */
+}
+
+.folder .top {
+    display: flex; /* Use flexbox to align the tabs side by side */
+    justify-content: flex-start; /* Align the tabs to the left */
+}
+
+.folder .top-tab-main {
+    background-color: #cfd0d5;
+    width: 14vw;
+    height: 6vh;
+    border-top-right-radius: 1vw;
+    border-top-left-radius: 1vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 4vw;
+    font-family: "FuturaLight", sans-serif;
+    text-transform: uppercase;
+    font-size: 1.1vw;
+    color: #363639;
+}
+
+.top-tab {
+    background-color: #363639;
+    width: 8vw;
+    height: 4vh;
+    font-family: 'FuturaLight', sans-serif;
+    font-size: 1.1vw;
+    text-transform: uppercase;
+    color: #cfd0d5;
+    border: 1px solid #cfd0d5; /* Apply border to all sides */
+    border-bottom: none; /* Remove bottom border */
+    padding: 0.3rem 0.5rem;
+    cursor: pointer;
+    border-top-left-radius: 1vw;
+    border-top-right-radius: 1vw;
+    margin-left: 1.5vw;
+    margin-top: 2vh;
+    transition: background-color 0.3s ease;
+}
+
+.top-tab:hover {
+    background-color: #5d6b97; /* Example hover effect */
+}
+
+/* Bottom Styling */
+.bottom {
+    max-height: 70vh; /* Adjust height */
+    display: flex;
+    flex-direction: column;  /* Stack the title and description vertically */
+    align-items: center;     /* Center-align the content horizontally */
+    font-family: 'FuturaLight', sans-serif;
+    font-size: 1.5vw;
+    text-align: center;
+    border-top-right-radius: 1vw;
+    border-bottom-left-radius: 1vw;
+    border-bottom-right-radius: 1vw;
+    box-shadow: 20px 20px 15px rgba(0, 0, 0, 0.2); /* Right and bottom shadow */
+    overflow-y: auto;
+}
+
+.bottom.main-page {
+    justify-content: center
+}
+
+.bottom.project1 {
+    justify-content: flex-start;
+}
+
+/* Styles for Main Page */
+.main-page {
+    background: linear-gradient(#cfd0d5, #7c7c78); /* Gradient background for the main page */
+    height: 70vh;
+    color: #363639;
+}
+
+.main-page h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.main-page p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+
+
+.default-content {
+    text-align: center;
+}
+
+.default-title {
+    font-size: 2vw; /* Larger title */
+    font-family: 'FuturaLight', sans-serif;
+    margin-bottom: 1.5rem;
+}
+
+.default-description {
+    font-size: 1.2vw; /* Smaller text */
+    font-family: 'FuturaLight', sans-serif;
+}
+
+
+.model-tips {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, 0.7);
+    color: #ffffff;
+    font-family: 'FuturaLight', sans-serif;
+    font-size: 1.1vw;
+    padding: 8px 14px;
+    border-radius: 20px;
+    z-index: 1000;
+    pointer-events: none;
+    animation: fadeTips 5s ease-in-out forwards;
+    white-space: nowrap; /* prevent line break */
+}
+
+.hero-content {
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #282828;
+    font-family: 'FuturaMedium';
+    font-size: 30px;
+    line-height: 1.1;
+    margin: 0;
+    letter-spacing: 5px;       /* tight, chunky spacing */
+    z-index: 3;
+    padding: 1rem;
+    text-align: center;
+    color: #ffffff; /* optional: make text visible on dark background */
+    flex-direction: column; /* allows <br /> spacing to stack nicely */
+}
+
+.hero-subtitle {
+    font-family: 'FuturaLight';
+    font-style: normal;           /* remove any italic */
+    font-size: 13px;
+    line-height: 1.4;
+    margin-top: 1rem;
+    letter-spacing: 2px;
+    text-transform: none;
+    color: #eee;
+    z-index: 3;
+}
+
+.scroll-down {
+    position: absolute;
+    bottom: 5vh; /* sticks near the bottom */
+    font-size: 2rem;
+    animation: bounce 1.5s infinite;
+    color: white;
+}
+
+/* Media query for mobile/tablet */
+@media (max-width: 1200px) {
+    .model-tips {
+        top: 55%; /* lower the tip for mobile/tablet */
+        font-size: 12px; /* optional: scale text for smaller screens */
+        white-space: nowrap; /* prevent line break */
+        padding: 6px 10px; /* optional: smaller padding for smaller screens */
+    }
+}
+
+@keyframes fadeTips {
+    0% { opacity: 0; }
+    10%, 80% { opacity: 1; }
+    100% { opacity: 0; }
+}
+
+
+.item-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    background: rgba(48, 48, 48, 0.7);
+    opacity: 1;
+    display: flex;
+    flex-direction: column;    /* stack h3 and p vertically */
+    align-items: center;       /* center horizontally */
+    justify-content: center;   /* center vertically */
+    text-align: center;
+    padding: 20px;
+    pointer-events: none;
+}
+
+.item-overlay h3 {
+    font-family: 'FuturaBold';
+    font-style: bold;
+    text-transform: uppercase;
+    transform: scaleY(0.75);
+    transform-origin: middle;
+    font-size: 30px;
+    color: white;
+    line-height: 130%;
+    letter-spacing: 3px;
+}
+.item-overlay p {
+    font-family: 'FuturaMedium';
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #ddd;
+    margin-top: 2vw;
+    letter-spacing: 3px;
+}
+
+.footer::after {
+    content: "";     /* creates an empty element */
+    display: block;  /* forces it onto a new line */
+    height: 20px;     /* adjust spacing (like one line height) */
+}
