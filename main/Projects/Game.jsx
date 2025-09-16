@@ -6,7 +6,7 @@ const Letters = () => (
 
         {/*Cover IMG*/}
         <div className="project-img">
-            <img src="../../public/pic/project14/project14-5.png" alt="Final render of the handheld gaming console, showcasing its metallic casing, colorful buttons, and vibrant on-screen illustration."/>
+            <img src="/pic/project14/project14-5.png" alt="Final render of the handheld gaming console, showcasing its metallic casing, colorful buttons, and vibrant on-screen illustration."/>
         </div>
 
         {/* Metadata */}
