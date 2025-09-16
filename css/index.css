@@ -3,7 +3,7 @@
 
 @font-face {
     font-family: 'Digi';
-    src: url('../src/fonts/digi.TTF') format('truetype');
+    src: url('../public/fonts/digi.TTF') format('truetype');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -11,28 +11,28 @@
 
 @font-face {
     font-family: 'FuturaLight';
-    src: url('../src/fonts/Futura Light.ttf') format('truetype');
+    src: url('../public/fonts/Futura Light.ttf') format('truetype');
     font-weight: 400;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'FuturaLightItalic';
-    src: url('../src/fonts/Futura Light Italic.ttf') format('truetype');
+    src: url('../public/fonts/Futura Light Italic.ttf') format('truetype');
     font-weight: 400;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'FuturaMedium';
-    src: url('../src/fonts/Futura Medium.ttf') format('truetype');
+    src: url('../public/fonts/Futura Medium.ttf') format('truetype');
     font-weight: 400;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'FuturaBold';
-    src: url('../src/fonts/Futura Bold.ttf') format('truetype');
+    src: url('../public/fonts/Futura Bold.ttf') format('truetype');
     font-weight: 700;
 }
 
