@@ -4,9 +4,9 @@ import HeroExperience from '../HeroModels/HeroExperience';
 import Project1 from '../Projects/Aether'; // Import Project
 import Project2 from '../Projects/Black';
 
-const FuturaMedium = '../../src/fonts/Futura Medium.ttf'
-const FuturaLight = '../../src/fonts/Futura Light.ttf'
-const FuturaLightItalic = '../../src/fonts/Futura Light Italic.ttf'
+const FuturaMedium = '/fonts/Futura Medium.ttf'
+const FuturaLight = '/fonts/Futura Light.ttf'
+const FuturaLightItalic = '/fonts/Futura Light Italic.ttf'
 
 const PhotoPopup = ({ onClose }) => {
     const [hovered, setHovered] = useState(false);
