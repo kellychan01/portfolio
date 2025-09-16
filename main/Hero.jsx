@@ -14,7 +14,7 @@ const Hero = () => {
                                 <HeroExperience />
                         </div>
                     </figure>
-                </div>
+                </div>git remote add origin https://github.com/kellychan01/portfolio.git
             </section>
 
             {/* Gallery section (below hero) */}
