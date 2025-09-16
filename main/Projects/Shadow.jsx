@@ -7,7 +7,7 @@ const Shadow = () => (
 
         {/*Cover IMG*/}
         <div className="project-img">
-            <img src="../../public/pic/project9/project9-1.jpg" alt="Busy downtown Toronto street intersection with pedestrians walking past cars, modern buildings, and a glass bus stop under overcast skies."/>
+            <img src="/pic/project9/project9-1.jpg" alt="Busy downtown Toronto street intersection with pedestrians walking past cars, modern buildings, and a glass bus stop under overcast skies."/>
         </div>
 
         {/* Metadata */}
@@ -22,9 +22,9 @@ const Shadow = () => (
 
         {/* Stills Gallery */}
         <section className="project-gallery">
-            <img src="../../public/pic/project9/project9-2.jpg" alt="Person sitting indoors by a window watching a Cantonese TV show on a laptop, with English and Chinese subtitles reading “Cantonese is very interesting.”" />
-            <img src="../../public/pic/project9/project9-3.jpg" alt="Close-up of textured brown fabric with the words “香港人” (Hong Kong person) stamped in dark ink." />
-            <img src="../../public/pic/project9/project9-4.jpg" alt="Street view of St. George Street in Toronto with red-brick heritage buildings, traffic lights, and pedestrians crossing in winter clothing." />
+            <img src="/pic/project9/project9-2.jpg" alt="Person sitting indoors by a window watching a Cantonese TV show on a laptop, with English and Chinese subtitles reading “Cantonese is very interesting.”" />
+            <img src="/pic/project9/project9-3.jpg" alt="Close-up of textured brown fabric with the words “香港人” (Hong Kong person) stamped in dark ink." />
+            <img src="/pic/project9/project9-4.jpg" alt="Street view of St. George Street in Toronto with red-brick heritage buildings, traffic lights, and pedestrians crossing in winter clothing." />
         </section>
 
         {/* FOOTER */}
