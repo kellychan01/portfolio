@@ -7,7 +7,7 @@ const Days = () => (
 
         {/*Cover IMG*/}
         <div className="project-img">
-            <img src="../../public/pic/project10/project10-1.JPG" alt="Behind-the-scenes of Find Me showing a photographer seated on a couch taking a photo, with two crew members in the background — one filming with a tripod camera and another leaning forward to talk."/>
+            <img src="/pic/project10/project10-1.JPG" alt="Behind-the-scenes of Find Me showing a photographer seated on a couch taking a photo, with two crew members in the background — one filming with a tripod camera and another leaning forward to talk."/>
         </div>
 
         {/* Metadata */}
