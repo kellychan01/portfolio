@@ -6,7 +6,7 @@ const Letters = () => (
 
         {/*Cover IMG*/}
         <div className="project-img">
-            <img src="../../public/pic/project3/project3-1.png" alt="typographic design reading “Kelly Chan” in a mix of ornate cursive and serif fonts, printed on black paper placed over a laptop"/>
+            <img src="/pic/project3/project3-1.png" alt="typographic design reading “Kelly Chan” in a mix of ornate cursive and serif fonts, printed on black paper placed over a laptop"/>
         </div>
 
         {/* Metadata */}
