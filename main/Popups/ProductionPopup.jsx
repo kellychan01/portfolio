@@ -6,9 +6,9 @@ import Project2 from '../Projects/Shadow';
 import Project3 from '../Projects/Find';
 import Project4 from '../Projects/Thai';
 
-const FuturaMedium = '../../src/fonts/Futura Medium.ttf'
-const FuturaLight = '../../src/fonts/Futura Light.ttf'
-const FuturaLightItalic = '../../src/fonts/Futura Light Italic.ttf'
+const FuturaMedium = '/fonts/Futura Medium.ttf'
+const FuturaLight = '/fonts/Futura Light.ttf'
+const FuturaLightItalic = '/fonts/Futura Light Italic.ttf'
 
 const ProductionPopup = ({ onClose }) => {
     const [hovered, setHovered] = useState(false);
