@@ -30,10 +30,10 @@ const Days = () => (
         <section className="creative-workflow">
             <div className="subsection-label">CREATIVE WORKFLOW</div>
             <div className="workflow-grid">
-                <img src="../../public/pic/project10/project10-2.JPG" alt="Interview scene from Find Me with a woman in a blue baseball cap speaking to a young man in a black jacket, filmed by a camera on a tripod positioned between them." />
-                <img src="../../public/pic/project10/project10-3.JPG" alt="An actress seated indoors holding a blue tablet, illuminated by soft colored light, during a scene from Find Me." className="frame6-crop" />
-                <img src="../../public/pic/project10/project10-4.jpg" alt="Behind-the-scenes of Find Me in a production room, showing multiple crew members, cameras on tripods, video monitors, and tangled cables spread across a table." />
-                <img src="../../public/pic/project10/project10-5.jpg" alt="Classroom setting where people are watching a projected scene on a large screen, with “2024 Beloved Media” written on a blackboard in the background." className="frame8-crop" />
+                <img src="/pic/project10/project10-2.JPG" alt="Interview scene from Find Me with a woman in a blue baseball cap speaking to a young man in a black jacket, filmed by a camera on a tripod positioned between them." />
+                <img src="/pic/project10/project10-3.JPG" alt="An actress seated indoors holding a blue tablet, illuminated by soft colored light, during a scene from Find Me." className="frame6-crop" />
+                <img src="/pic/project10/project10-4.jpg" alt="Behind-the-scenes of Find Me in a production room, showing multiple crew members, cameras on tripods, video monitors, and tangled cables spread across a table." />
+                <img src="/pic/project10/project10-5.jpg" alt="Classroom setting where people are watching a projected scene on a large screen, with “2024 Beloved Media” written on a blackboard in the background." className="frame8-crop" />
             </div>
         </section>
         {/* FOOTER */}
